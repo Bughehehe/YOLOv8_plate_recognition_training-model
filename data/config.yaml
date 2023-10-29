@@ -1,0 +1,8 @@
+path: C:/Users/olekk/Desktop/Projekty/YOLOv8_plate_recognition_training model/data  # dataset root dir
+train: train/images  # train images (relative to 'path')
+test: test/images  # test images (relative to 'path')
+val: valid/images
+
+# Classes
+names:
+  0: Car_plate
